@@ -1,0 +1,52 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Sakib Hasan
+theme: ["PaperMod"]
+
+params:
+  author: Sakib Hasan
+  description: My personal website
+  keywords: [blog,developer,personal,software,engineering]
+
+  homeInfoParams:
+    Title: Hi, I'm Sakib
+    Content: I'm a software engineer
+  
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/sakibhasan
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/sakibhasan
+    - name: Twitter
+      url: https://twitter.com/sakibhasan
+
+  cover:
+    linkFullImages: true
+
+  showBreadCrumbs: true
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+
+
+menu:
+  main:
+    - name: Home
+      url: /
+      identifier: home
+      weight: 1
+
+    - name: Blogs
+      url: /blogs
+      identifier: blogs
+      weight: 2
+
+    - name: Projects
+      url: /projects
+      identifier: projects
+      weight: 3
+
+    - name: About
+      url: /about
+      identifier: about
+      weight: 4
