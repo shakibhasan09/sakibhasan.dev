@@ -6,28 +6,36 @@ theme: ["PaperMod"]
 params:
   author: Sakib Hasan
   description: My personal website
-  keywords: [blog,developer,personal,software,engineering]
-
-  homeInfoParams:
-    Title: Hi, I'm Sakib
-    Content: I'm a software engineer
-  
-  socialIcons:
-    - name: GitHub
-      url: https://github.com/sakibhasan
-    - name: LinkedIn
-      url: https://www.linkedin.com/in/sakibhasan
-    - name: Twitter
-      url: https://twitter.com/sakibhasan
-
-  cover:
-    linkFullImages: true
+  keywords: [blog,developer,personal,software,engineering,sakib,hasan,typescript,reactjs,nextjs]
 
   showBreadCrumbs: true
   showReadingTime: true
   showShareButtons: true
   showPostNavLinks: true
 
+  homeInfoParams:
+    Title: Sakib | Full Stack Developer
+    Content: |
+      A full-stack software developer with 5 years of coding experience, 
+      specializing in web and app development. Proficient in a wide range 
+      of programming languages, including: TypeScript, PHP, Golang, 
+      Python, Elixir & Dart. With expertise in both frontend and backend 
+      development, I create robust, scalable applications using modern 
+      tech stacks. My experience spans web and mobile platforms, allowing 
+      me to deliver comprehensive solutions for diverse project requirements.
+  
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/shakibhasan09
+    - name: Twitter
+      url: https://x.com/sakibhasanme09
+    - name: Twitch
+      url: https://www.twitch.tv/sakibhasanme09
+    - name: Youtube
+      url: https://www.youtube.com/@sakibhasandev
+
+  cover:
+    linkFullImages: true
 
 menu:
   main:
@@ -50,3 +58,8 @@ menu:
       url: /about
       identifier: about
       weight: 4
+
+    - name: Contact
+      url: /contact
+      identifier: contact
+      weight: 5

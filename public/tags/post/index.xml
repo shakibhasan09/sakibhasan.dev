@@ -13,7 +13,8 @@
       <link>http://localhost:1313/blogs/my-first-blog/</link>
       <pubDate>Thu, 10 Oct 2024 18:46:51 +0600</pubDate>
       <guid>http://localhost:1313/blogs/my-first-blog/</guid>
-      <description>Hello This is my first blog post.</description>
+      <description>Hello This is my first blog post.
+const hellp = &amp;#34;Hell&amp;#34; </description>
     </item>
   </channel>
 </rss>
