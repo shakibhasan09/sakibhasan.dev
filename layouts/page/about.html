@@ -1,16 +1,7 @@
 {{ define "main" }}
-<article class="about-page">
-    <header class="about-header">
-        <h1 class="about-title">{{ .Title }}</h1>
-    </header>
-
-    <div class="about-content">
+<article class="post-single">
+    <div class="post-content">
         {{ .Content }}
     </div>
-
-    <!-- You can add more custom sections here -->
-    <section class="about-extra">
-        <!-- Add any additional content or widgets specific to your about page -->
-    </section>
 </article>
 {{ end }}
