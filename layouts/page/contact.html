@@ -1,21 +1,28 @@
 {{ define "main" }}
-<form class="contact-form">
+<form class="contact-form" autocomplete="off" method="POST" action="https://formsubmit.co/contact@sakibhasan.dev">
 
     <h1 class="contact-title">{{ .Title }}</h1>
 
     {{ .Content }}
 
     <div class="form-content">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="John Doe">
+        </div>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="john@example.com">
+        </div>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+        <div class="form-group">
+            <label for="textarea">Message</label>
+            <textarea type="textarea" id="textarea" name="textarea" required placeholder="Write your message here"
+                rows="6"></textarea>
+        </div>
     </div>
 
-    <button type="submit">Send</button>
+    <button type="submit">Submit</button>
 </form>
 {{ end }}
