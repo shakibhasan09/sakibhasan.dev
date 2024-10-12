@@ -4,10 +4,10 @@ main = "src/index.ts"
 name = "formsubmit-portfolio-api"
 
 [vars]
-Recipient = "shakibhasan.me09@gmail.com"
+RECIPIENT = "shakibhasan.me09@gmail.com"
 
 send_email = [
-  {type = "send_email", name = "EMAIL", destination_address = "shakibhasan.me09@gmail.com"},
+  {type = "send_email", name = "SEB", destination_address = "shakibhasan.me09@gmail.com"},
 ]
 
 [observability]

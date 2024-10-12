@@ -4,8 +4,8 @@ import { createMimeMessage } from "mimetext";
 
 type App = {
   Bindings: {
-    Email: SendEmail;
-    Recipient: string;
+    SEB: SendEmail;
+    RECIPIENT: string;
   };
 };
 
@@ -20,27 +20,28 @@ const app = new Hono<App>();
 app.post("/", async (c) => {
   const body = await c.req.parseBody<Body>();
 
-  // const msg = createMimeMessage();
+  const msg = createMimeMessage();
 
-  // msg.setSender({ name: body.name, addr: body.email });
-  // msg.setRecipient(c.env.Recipient);
-  // msg.setSubject("An email generated in a worker");
-  // msg.addMessage({
-  //   contentType: "text/plain",
-  //   data: `Congratulations, you just sent an email from a worker.`,
-  // });
+  msg.setSender({ name: "Formsubmit Worker", addr: "formsubmit@mailoom.com" });
+  msg.setRecipient({ name: "Sakib Hasan", addr: "shakibhasan.me09@gmail.com" });
+  msg.setSubject("An email generated in a worker");
+  msg.addMessage({
+    contentType: "text/plain",
+    data: `Congratulations, you just sent an email from a worker.`,
+  });
 
-  // var message = new EmailMessage(body.email, c.env.Recipient, msg.asRaw());
+  var message = new EmailMessage(
+    "formsubmit@mailoom.com",
+    "shakibhasan.me09@gmail.com",
+    msg.asRaw()
+  );
 
-  // try {
-  //   await c.env.Email.send(message);
-  // } catch (e) {
-  //   if (e instanceof Error) {
-  //     return new Response(e.message);
-  //   }
-
-  //   return new Response("Internal Server Error");
-  // }
+  try {
+    console.log(c.env.SEB);
+    await c.env.SEB.send(message);
+  } catch (e) {
+    return new Response((e as Error).message);
+  }
 });
 
 export default {
