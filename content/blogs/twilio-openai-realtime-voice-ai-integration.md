@@ -5,8 +5,6 @@ draft: false
 tags: ["golang", "websocket", "openai"]
 ---
 
-# Building a Real-Time Voice AI with Twilio and OpenAI
-
 In today's rapidly evolving world of AI and communication, the ability to create intelligent, responsive voice applications is becoming increasingly valuable. This blog post will walk you through a fascinating project that combines Twilio's voice capabilities with OpenAI's cutting-edge Realtime API to create a dynamic, AI-powered voice interaction system.
 
 ## Project Overview
