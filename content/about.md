@@ -9,7 +9,7 @@ I am a full-stack software developer with 5 years of experience in web and app d
 
 ## Skills
 
-- **Languages**: HTML, CSS, JavaScript/TypeScript, PHP, Python, Golang, Elixir, Dart, SQL, GraphQL
+- **Languages**: HTML, CSS, TypeScript, PHP, Python, Golang, Elixir, Dart, SQL, GraphQL
 - **Frameworks**: React, Express, Next, Hono, Remix, Django, Laravel, Flutter, Fiber
 - **Databases**: MySQL, PostgreSQL, SQLite, Amazon DynamoDB, Redis,
 - **Runtimes**: Node.js, Deno, Cloudflare Worker, Vercel, Bun
@@ -25,6 +25,11 @@ With half a decade in the field, I've honed my skills across various platforms:
 - Backend systems
 - DevOps
 - Data Science (learning)
+
+## Certifications
+
+- **Harvard University CS50- Associate (2024)**: Introduction to Computer Science
+- **SoloLearn Web Development- Associate (2019)**: Web Development
 
 ## Philosophy
 
