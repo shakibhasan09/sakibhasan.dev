@@ -25,13 +25,9 @@ params:
   homeInfoParams:
     Title: Sakib | Full Stack Developer
     Content: |
-      A full-stack software developer with 5 years of coding experience, 
-      specializing in web and app development. Proficient in a wide range 
-      of programming languages, including: TypeScript, PHP, Golang, 
-      Python, Elixir & Dart. With expertise in both frontend and backend 
-      development, I create robust, scalable applications using modern 
-      tech stacks. My experience spans web and mobile platforms, allowing 
-      me to deliver comprehensive solutions for diverse project requirements.
+      I am a full-stack software developer with 5 years of experience in web and app development. 
+      My expertise spans both frontend and backend technologies, allowing me to create comprehensive, 
+      scalable solutions for diverse project requirements.
   
   socialIcons:
     - name: GitHub
@@ -42,6 +38,8 @@ params:
       url: https://www.twitch.tv/sakibhasanme09
     - name: Youtube
       url: https://www.youtube.com/@sakibhasandev
+    - name: Facebook
+      url: https://web.facebook.com/sakibhasan.dev
 
   cover:
     linkFullImages: true
