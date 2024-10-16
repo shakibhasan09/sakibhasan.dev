@@ -5,11 +5,15 @@ layout: "about"
 
 # About Me
 
-I am a seasoned full-stack software developer with 5 years of professional experience in web and app development. My expertise spans both frontend and backend technologies, allowing me to create comprehensive, scalable solutions for diverse project requirements.
+I am a full-stack software developer with 5 years of experience in web and app development. My expertise spans both frontend and backend technologies, allowing me to create comprehensive, scalable solutions for diverse project requirements.
 
 ## Skills
 
-- **Languages**: TypeScript, PHP, Golang, Python, Elixir, Dart
+- **Languages**: HTML, CSS, JavaScript/TypeScript, PHP, Python, Golang, Elixir, Dart
+- **Frameworks**: React/React Native, Node.js, Express.js, Next.js, Hono.js, Laravel, Flutter, Fiber, Remix
+- **Databases**: MySQL, PostgreSQL, SQLite, Amazon DynamoDB
+- **Tools**: Git, Postman, VS Code, Docker, Figma
+- **CI/CD**: CircleCI, TravisCI, GitHub Actions, Netlify, Heroku, Vercel, Docker Hub, Docker Compose,
 - **Focus Areas**: Web development, Mobile app development
 - **Approach**: Building robust, scalable applications using modern tech stacks
 
