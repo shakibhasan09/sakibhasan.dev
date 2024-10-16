@@ -4,7 +4,7 @@ title: Sakib Hasan
 theme: ["PaperMod"]
 
 params:
-  env: development
+  env: production
 
   assets:
     favicon: "/favicon.ico"
