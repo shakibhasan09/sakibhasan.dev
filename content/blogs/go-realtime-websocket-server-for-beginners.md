@@ -5,7 +5,10 @@ draft: false
 tags: ["golang", "websocket", "openai"]
 ---
 
-Have you ever wondered how real-time communication works in web applications? Today, we're going to explore a Go (Golang) program that sets up a WebSocket server to handle real-time audio streaming between Twilio (a popular communication API) and OpenAI's language model. Don't worry if some of these terms sound unfamiliar – we'll break it down step by step!
+Have you ever wondered how real-time communication works in web applications? Today, we're going to explore a Go (Golang) program that sets up a WebSocket server to handle real-time audio streaming between Twilio (a popular communication API) and OpenAI's language model. Don't worry if some of these terms sound unfamiliar – I will break it down step by step!
+
+
+Github Link: https://github.com/shakibhasan09/twilio-voice-openai
 
 ## What Does This Program Do?
 
