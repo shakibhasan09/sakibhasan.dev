@@ -9,12 +9,13 @@ I am a full-stack software developer with 5 years of experience in web and app d
 
 ## Skills
 
-- **Languages**: HTML, CSS, JavaScript/TypeScript, PHP, Python, Golang, Elixir, Dart
-- **Frameworks**: React/React Native, Node.js, Express.js, Next.js, Hono.js, Laravel, Flutter, Fiber, Remix
-- **Databases**: MySQL, PostgreSQL, SQLite, Amazon DynamoDB
-- **Tools**: Git, Postman, VS Code, Docker, Figma
-- **CI/CD**: CircleCI, TravisCI, GitHub Actions, Netlify, Heroku, Vercel, Docker Hub, Docker Compose,
-- **Focus Areas**: Web development, Mobile app development
+- **Languages**: HTML, CSS, JavaScript/TypeScript, PHP, Python, Golang, Elixir, Dart, SQL & GraphQL
+- **Frameworks**: React, Express, Next, Hono, Remix, Django, Laravel, Flutter & Fiber
+- **Databases**: MySQL, PostgreSQL, SQLite, Amazon DynamoDB & Redis,
+- **Runtimes**: Node.js, Deno, Cloudflare Worker, Vercel, Bun
+- **CI/CD**: CircleCI, TravisCI, GitHub Actions
+- **Others**: AWS, Docker, Kubernetes, GCP, DigitalOcean, Linode, Vercel, Swagger, RabbitMQ, Prometheus, Grafana, OpenAPI & Linux
+- **Focus Areas**: Web development, Mobile app development, Data Science (learning), DevOps
 - **Approach**: Building robust, scalable applications using modern tech stacks
 
 ## Experience
