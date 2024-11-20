@@ -14,12 +14,14 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   author: Sakib Hasan
-  description: My personal website
+  description: | 
+      I am a full-stack software developer with 5 years of experience in web and app development. 
+      My expertise spans both frontend and backend technologies, allowing me to create comprehensive, 
+      scalable solutions for diverse project requirements.
   keywords: [blog,developer,personal,software,engineering,sakib,hasan,typescript,reactjs,nextjs]
 
-  showBreadCrumbs: true
+
   showReadingTime: true
-  showShareButtons: true
   showPostNavLinks: true
 
   homeInfoParams:

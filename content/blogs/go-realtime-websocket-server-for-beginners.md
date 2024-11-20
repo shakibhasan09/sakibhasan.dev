@@ -1,7 +1,6 @@
 ---
 title: "Building a Real-Time Communication Server with Go: A Beginner's Guide"
 date: 2024-10-12T18:46:51+06:00
-draft: false
 tags: ["golang", "websocket", "openai", "twilio"]
 ---
 
